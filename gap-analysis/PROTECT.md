@@ -48,7 +48,7 @@
 | Response & Recovery Testing    | Define and execute routine tests for IR and BCP plans to ensure preparedness and improve procedures.                           | High       | 3–6 months  | Cybersecurity / IT Operations | Testing not performed; response readiness is unknown                     |
 | HR Security Practices          | No action required                                                                                                             |            |             | HR Department                 | Background checks and offboarding procedures are performed appropriately |
 | Vulnerability Management       | Establish a formal vulnerability management program with governance, scanning cadence, remediation SLAs, and reporting.        | High       | 0–3 months  | Cybersecurity / IT Security   | Qualys is available but used without structure or defined process        |
-|                                | Sub-Category: Maintenance &  Protective Technology                                                                             |            |             |                               |                                                                          |
+
 
 ## **Sub-Category: Maintenance & Protective Technology**
 
