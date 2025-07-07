@@ -1,4 +1,5 @@
-# **Detect – Anomalies and Events**
+# **NIST Category: Protect**
+# **Sub-Category: Anomalies and Events**
 
 | Control Area                  | Recommendation                                                                                                                        | Priority   | Timeline   | Owner                    | Notes                                            |
 |:------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-----------|:-------------------------|:-------------------------------------------------|
@@ -8,7 +9,7 @@
 | Alert Analysis                | Create a structured alert triage and threat analysis process to investigate anomalies and suspected attacks.                          | High       | 3–6 months | SOC Team / Cybersecurity | Alerts are not currently analyzed or correlated  |
 | Log Aggregation & Correlation | Integrate existing infrastructure (firewalls, endpoints, O365, Azure logs) into the SIEM for correlation across multiple data points. | High       | 0–6 months | Cybersecurity / IT Ops   | No log sources currently centralized or analyzed |
 
-# **Detect – Security Continuous Monitoring**
+# **Sub-Category: Security Continuous Monitoring**
 
 | Control Area                   | Recommendation                                                                                                                            | Priority   | Timeline    | Owner                         | Notes                                                                   |
 |:-------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:------------|:------------------------------|:------------------------------------------------------------------------|
@@ -21,7 +22,7 @@
 | Unauthorized Mobile Code       | No action required                                                                                                                        |            |             | IT / Endpoint Security        | Covered by Defender’s endpoint scanning capabilities                    |
 | Third-Party Service Monitoring | Implement a TPRM process requiring breach notification and audit trails from service providers.                                           | High       | 6–12 months | Procurement / Vendor Mgmt     | No monitoring of third-party provider security activity                 |
 
-# **Detect – Detection Processes**
+# **Sub-Category: Detection Processes**
 
 | Control Area               | Recommendation                                                                                                              | Priority   | Timeline    | Owner                     | Notes                                                     |
 |:---------------------------|:----------------------------------------------------------------------------------------------------------------------------|:-----------|:------------|:--------------------------|:----------------------------------------------------------|
@@ -30,28 +31,3 @@
 | Roles & Responsibilities   | Define formal roles and responsibilities for threat detection and assign them within the cyber team. Consider MSSP support. | High       | 0–3 months  | CISO / Cybersecurity Lead | No ownership or clarity around detection responsibilities |
 | Regulatory Compliance      | Review applicable detection requirements (e.g., NIST, industry-specific) and align tooling and processes with them.         | Medium     | 6–12 months | Compliance / Cyber Team   | No evidence of regulatory or contractual alignment        |
 | Detection Use Case Testing | Perform detection testing (e.g., purple teaming, cyber drills) to evaluate and validate detection logic.                    | High       | 3–6 months  | SOC / Cybersecurity Team  | No use case testing or validation                         |
-
-# **Respond – Response Planning & Communications**
-
-| Control Area                 | Recommendation                                                                                                                                    | Priority   | Timeline   | Owner                       | Notes                                          |
-|:-----------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:-----------|:----------------------------|:-----------------------------------------------|
-|                              | NIST Category - Respond                                                                                                                           |            |            |                             |                                                |
-|                              | Sub-Category: Response Planning & Communications                                                                                                  |            |            |                             |                                                |
-| Control Area                 | Recommendation                                                                                                                                    | Priority   | Timeline   | Owner                       | Notes                                          |
-| Incident Response Plan (IRP) | Develop and document a formal Incident Response Plan that covers preparation, detection, containment, eradication, recovery, and lessons learned. | High       | 0–3 months | Cybersecurity / IR Team     | No IRP currently exists                        |
-| IR Roles & Escalation Paths  | Define IR roles, responsibilities, and escalation points. Include contact lists and operational procedures for common incident scenarios.         | High       | 0–3 months | IR Coordinator / Cyber Team | No clarity around response roles or escalation |
-
-# **Respond – Analysis, Mitigation & Improvements**
-
-| Control Area             | Recommendation                                                                                                                                 | Priority   | Timeline    | Owner                     | Notes                                                                |
-|:-------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------|:-----------|:------------|:--------------------------|:---------------------------------------------------------------------|
-| Information Sharing      | Join an information-sharing community (e.g., ISAC, MS-ISAC) and establish procedures for voluntary threat intel sharing with trusted partners. | Medium     | 6–12 months | Cybersecurity / Risk Team | Immature program; no current participation in external intel sharing |
-|                          | Sub-Category: Analysis, Mitigation & Improvements                                                                                              |            |             |                           |                                                                      |
-| Control Area             | Recommendation                                                                                                                                 | Priority   | Timeline    | Owner                     | Notes                                                                |
-| Alert Investigation      | Define a formal alert triage and response process, including coverage hours and on-call responsibilities.                                      | High       | 0–3 months  | SOC / Incident Response   | No defined alert response process or 24/7 coverage                   |
-| Incident Impact Analysis | Include business impact analysis in incident documentation to help prioritize response and recovery actions.                                   | Medium     | 3–6 months  | IR Team / Business Units  | No current documentation of incident impact                          |
-| Forensics Capability     | Build internal or contracted capacity for digital forensics and evidence handling to support investigations.                                   | Medium     | 6–12 months | Cybersecurity / Legal     | No current forensics capabilities                                    |
-| Incident Categorization  | Define incident categories and severity levels aligned to IR plans (e.g., based on the SANS IR framework).                                     | High       | 0–3 months  | IR Lead / Cybersecurity   | No standardized classification in place                              |
-| Incident Containment     | Ensure the IR plan includes detailed containment procedures and isolation playbooks for common attack types.                                   | High       | 0–3 months  | IR Team                   | Containment not formally documented                                  |
-| Incident Mitigation      | Define mitigation strategies and procedures for various incident types (malware, phishing, unauthorized access, etc.).                         | High       | 0–3 months  | IR Team                   | No mitigation phase addressed in current process                     |
-
