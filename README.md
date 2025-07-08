@@ -6,6 +6,10 @@ This repository contains the cybersecurity assessment, strategic recommendations
 
 ## 📌 Repository Structure
 
+
+### 📊 Baseline State
+- [`oscorp-current-state.md`](oscorp-current-state.md) – Initial assessment of Oscorp's cybersecurity posture
+
 ### 🔍 Gap Analysis (`gap-analysis/`)
 Breakdown of recommendations aligned with NIST CSF:
 
@@ -20,9 +24,6 @@ High-level direction and implementation roadmap:
 
 - [`program-recommendations.md`](strategy-docs/program-recommendations.md) – Strategic initiatives
 - [`3-year-roadmap.md`](strategy-docs/3-year-roadmap.md) – Tactical phased plan
-
-### 📊 Baseline State
-- [`oscorp-current-state.md`](oscorp-current-state.md) – Initial assessment of Oscorp's cybersecurity posture
 
 ---
 
