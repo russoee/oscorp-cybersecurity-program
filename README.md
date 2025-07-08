@@ -1,48 +1,31 @@
-# Oscorp Cybersecurity Program (NIST CSF-Aligned)
+# 🧬 Oscorp Cybersecurity Capstone
 
-This repository documents a comprehensive cybersecurity program designed for Oscorp, based on the NIST Cybersecurity Framework (CSF). The project includes a gap analysis, risk prioritization, and a detailed 3-year roadmap to uplift Oscorp's cyber resilience.
-
----
-
-## 🔍 Project Scope
-
-- **Client**: Oscorp Industries
-- **Objective**: Strengthen cyber defense posture and reduce risk exposure
-- **Deliverables**:
-  - Analysis of current state security controls
-  - Mapping to NIST CSF functions and categories
-  - Strategic roadmap with milestones and KPIs
+This repository contains the cybersecurity assessment, strategic recommendations, and roadmap for Oscorp's security program transformation.
 
 ---
 
-## 📁 Repository Contents
+## 📌 Repository Structure
 
-| Folder | Description |
-|--------|-------------|
-| `docs/` | Narrative documents including gap analysis, roadmap, and implementation plan |
-| `data/` | Source materials (e.g., spreadsheets, internal state PDFs) |
-| `roadmap/` | Gantt charts and timeline visuals |
-| `presentation/` | Executive summary or pitch deck |
-| `.gitignore` | Standard ignore list (e.g., for `.DS_Store`, temporary files) |
+### 🔍 Gap Analysis (`gap-analysis/`)
+Breakdown of recommendations aligned with NIST CSF:
 
----
+- [`IDENTIFY.md`](gap-analysis/IDENTIFY.md)
+- [`PROTECT.md`](gap-analysis/PROTECT.md)
+- [`DETECT.md`](gap-analysis/DETECT.md)
+- [`RESPOND.md`](gap-analysis/RESPOND.md)
+- [`RECOVER.md`](gap-analysis/RECOVER.md)
 
-## 📅 3-Year Roadmap Overview
+### 🧭 Strategic Planning (`strategy-docs/`)
+High-level direction and implementation roadmap:
 
-- **Year 1**: Baseline improvements (asset inventory, MFA, email filtering, EDR)
-- **Year 2**: Risk-based prioritization, IR playbooks, vulnerability management
-- **Year 3**: Advanced analytics, threat hunting, red team/blue team exercises
+- [`program-recommendations.md`](strategy-docs/program-recommendations.md) – Strategic initiatives
+- [`3-year-roadmap.md`](strategy-docs/3-year-roadmap.md) – Tactical phased plan
 
----
-
-## 📘 Framework Alignment
-
-All deliverables are aligned with the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework):
-- Identify
-- Protect
-- Detect
-- Respond
-- Recover
+### 📊 Baseline State
+- [`oscorp-current-state.md`](oscorp-current-state.md) – Initial assessment of Oscorp's cybersecurity posture
 
 ---
 
+## 🛠 About the Project
+
+This capstone follows the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) and is designed to simulate a full GRC lifecycle — from assessment to execution planning.
